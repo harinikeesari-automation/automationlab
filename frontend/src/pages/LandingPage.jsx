@@ -209,7 +209,7 @@ const LandingPage = ({ auth }) => {
                       <Star key={i} className="w-4 h-4 fill-yellow-500 text-yellow-500" />
                     ))}
                   </div>
-                  <p className="text-muted-foreground mb-6 italic">"{testimonial.content}"</p>
+                  <p className="text-muted-foreground mb-6 italic">&ldquo;{testimonial.content}&rdquo;</p>
                   <div className="flex items-center gap-4">
                     <img 
                       src={testimonial.image_url || `https://ui-avatars.com/api/?name=${testimonial.name}&background=6366f1&color=fff`}

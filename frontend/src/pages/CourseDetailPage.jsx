@@ -247,7 +247,7 @@ const CourseDetailPage = ({ auth }) => {
                   {isEnrolled && (
                     <p className="text-center text-sm text-accent mb-4">
                       <CheckCircle className="w-4 h-4 inline mr-1" />
-                      You're enrolled!
+                      You&apos;re enrolled!
                     </p>
                   )}
 
