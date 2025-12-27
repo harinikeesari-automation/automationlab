@@ -1,0 +1,132 @@
+{
+  "identity": {
+    "name": "E1: The Anti-AI Designer",
+    "mission": "Create a 'Terminal Pro' aesthetic that feels like a high-end IDE mixed with Swiss design. Reject generic SaaS blues and gradients.",
+    "principles": [
+      "Fusion: IDE Aesthetics + Swiss Typography",
+      "Emotion: Competence, Focus, Flow",
+      "Content: Data-dense but breathable",
+      "Contrast: High contrast text, subtle borders, no muddy greys"
+    ]
+  },
+  "typography": {
+    "fonts": [
+      {
+        "family": "Outfit",
+        "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap",
+        "usage": "Headings, Hero Text, Big Numbers",
+        "class": "font-heading"
+      },
+      {
+        "family": "Manrope",
+        "url": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap",
+        "usage": "Body text, UI elements, Inputs",
+        "class": "font-sans"
+      },
+      {
+        "family": "JetBrains Mono",
+        "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap",
+        "usage": "Code snippets, Tags, Technical specs, Accents",
+        "class": "font-mono"
+      }
+    ],
+    "rules": [
+      "Headings must be tight: tracking-tight or tracking-tighter",
+      "Overlines/Labels must be uppercase + wide spacing: tracking-[0.2em] font-mono text-xs",
+      "Never use Inter for headings"
+    ]
+  },
+  "colors": {
+    "palette": {
+      "background": "#09090B",
+      "foreground": "#FAFAFA",
+      "card": "#18181B",
+      "card-foreground": "#FAFAFA",
+      "popover": "#09090B",
+      "popover-foreground": "#FAFAFA",
+      "primary": "#6366F1",
+      "primary-foreground": "#FFFFFF",
+      "secondary": "#27272A",
+      "secondary-foreground": "#FAFAFA",
+      "muted": "#27272A",
+      "muted-foreground": "#A1A1AA",
+      "accent": "#22C55E",
+      "accent-foreground": "#000000",
+      "destructive": "#EF4444",
+      "destructive-foreground": "#FFFFFF",
+      "border": "#27272A",
+      "input": "#27272A",
+      "ring": "#6366F1"
+    },
+    "strategy": "Dark Mode Default. Use 'Zinc' scale for neutrals. Primary is Electric Indigo (Focus), Accent is Neon Green (Success/Code). Avoid gradients on backgrounds; use them only for text or subtle borders."
+  },
+  "visual_enhancers": {
+    "borders": "Use 1px borders with low opacity (border-white/10) instead of shadows for depth.",
+    "glassmorphism": "Use backdrop-blur-xl with bg-black/60 for sticky headers.",
+    "textures": "Add a subtle noise texture to the background to kill the digital flatness.",
+    "glow": "Use 'Tracing Beam' effects on active cards or hover states.",
+    "ascii": "Use subtle ASCII art for 404 pages or loaders."
+  },
+  "layout": {
+    "marketing": {
+      "grid": "Tetris Grid (Bento)",
+      "gap": "gap-8 md:gap-12",
+      "container": "max-w-7xl mx-auto px-6"
+    },
+    "dashboard": {
+      "grid": "Control Room Grid",
+      "gap": "gap-4",
+      "style": "Dense, data-rich, rectangular cards"
+    }
+  },
+  "components": {
+    "buttons": "Sharp corners or small radius (rounded-md). No pill shapes for main actions.",
+    "cards": "Flat background, 1px border, no shadow by default. Hover: border-primary/50.",
+    "inputs": "Deep background (bg-zinc-900), border-zinc-800. Focus: border-primary ring-1 ring-primary.",
+    "charts": "Use Recharts/Shadcn Charts. Colors: Indigo, Emerald, Amber, Rose, Cyan."
+  },
+  "images": {
+    "hero_bg": {
+      "url": "https://images.unsplash.com/photo-1692106979244-a2ac98253f6b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxwcm9ncmFtbWVyJTIwY29kaW5nJTIwbmlnaHR8ZW58MHx8fHwxNzY2ODA2MzUzfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Developer coding at night with laptop",
+      "category": "hero"
+    },
+    "features": [
+      {
+        "url": "https://images.unsplash.com/photo-1691036365022-8dd064e95858?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxzZXJ2ZXIlMjByb29tJTIwZnV0dXJpc3RpY3xlbnwwfHx8fDE3NjY4MDYzNTV8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Futuristic server room for DevOps",
+        "category": "feature_devops"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1620748229976-a78c7e0932a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwyfHxwcm9ncmFtbWVyJTIwY29kaW5nJTIwbmlnaHR8ZW58MHx8fHwxNzY2ODA2MzUzfDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Laptop with code",
+        "category": "feature_coding"
+      }
+    ],
+    "testimonials": [
+      {
+        "url": "https://images.unsplash.com/photo-1576558656222-ba66febe3dec?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2ODA2MzU2fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Male student 1",
+        "category": "testimonial"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1762522921456-cdfe882d36c3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2ODA2MzU2fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Female student 1",
+        "category": "testimonial"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1758876204244-930299843f07?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2ODA2MzU2fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Male student 2",
+        "category": "testimonial"
+      }
+    ]
+  },
+  "universal_guidelines": [
+    "Avoid 'AI Slop': No generic centered layouts, no 'Inter' everywhere.",
+    "Dark Mode First: Design for the developer eye (low strain, high contrast).",
+    "Micro-interactions: Every button click, hover, and focus must have a state change.",
+    "Spacing: Use p-8 or p-12 where others use p-4.",
+    "Data-TestID: All interactive elements must have data-testid attributes."
+  ],
+  "instructions_to_main_agent": "1. Install fonts in index.css. 2. Update tailwind.config.js with the color palette. 3. Create a 'Layout' component that handles the sticky header and footer. 4. Use the provided image URLs for the Landing Page. 5. Build the Dashboard using the 'Control Room' grid strategy."
+}
