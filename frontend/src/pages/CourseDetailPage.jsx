@@ -189,7 +189,7 @@ const CourseDetailPage = ({ auth }) => {
 
               {/* Curriculum */}
               <div className="mb-8">
-                <h2 className="font-heading text-2xl font-bold mb-6">What You'll Learn</h2>
+                <h2 className="font-heading text-2xl font-bold mb-6">What You&apos;ll Learn</h2>
                 <div className="grid md:grid-cols-2 gap-4">
                   {course.curriculum?.map((item, idx) => (
                     <div key={idx} className="flex items-start gap-3">
